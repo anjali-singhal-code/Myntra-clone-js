@@ -1,0 +1,168 @@
+
+.outer-div {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  padding: 150px 0;
+}
+
+.cart-items-container {
+  width: 55%;
+}
+
+.item-container {
+  margin: 10px 0;
+  border: 1px solid #ebe7e7;
+  padding: 15px;
+  display: flex;
+  height: 200px;
+}
+
+.cart-image {
+  padding: 10px;
+  height: 100%;
+}
+
+.cart-details {
+  position: relative;
+  padding: 10px 5px;
+}
+
+.cart-heading {
+  margin: 2px 0;
+  font-family: Figtree, Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+  border: 1px solid #EAEAEC;
+  color: #282C3F;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cart-description {
+  margin: 4px 0;
+  font-family: Figtree, Helvetica, Arial, sans-serif !important;
+  color: #282c3f;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.cart-current-price {
+  color: #282C3F;
+  font-size: 14px;
+  max-width: 980px;
+  margin: auto;
+  font-weight: 700;
+}
+
+.cart-original-price {
+  font-size: 14px;
+  color: #94969F;
+  text-decoration: line-through;
+}
+
+.cart-discount-price {
+  color: #f16565;
+  font-size: 14px;
+}
+
+.cart-return {
+  margin: 8px 0;
+  color: #282C3F;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.cart-return .return-icon {
+  font-weight: 400;
+  color: #282C3F;
+  font-size: 12px;
+}
+
+.cart-delivery-date {
+  margin: 6px 0;
+  color: #282C3F;
+  font-size: 12px;
+}
+
+.cart-delivery-date span {
+  font-weight: 700;
+  color: #282C3F;
+  font-size: 12px;
+}
+
+
+.quantity-container {
+  margin: 6px 0;
+  background: #F5F5F6;
+  padding: 2px;
+  width: 75px;
+  border: 1px solid #EAEAEC;
+  font-weight: 700;
+  font-size: 14px;
+  color: #282C3F;
+}
+
+.add-quantity {
+  margin-left: 2px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 2px;
+  left: 365px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  cursor: pointer;
+}
+
+.price-details-container {
+  height: 280px;
+  margin: 10px 0 0 20px;
+  border: 1px solid #ebe7e7;
+  width: 35%;
+}
+
+.price-heading {
+  margin: 18px 0 14px 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #535766;
+}
+
+.total-mrp, .discount-mrp, .platform-fee {
+  padding: 6px 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #282C3F;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 15px 18px;
+  border-top: 1px solid #ebe7e7;
+  font-weight: 700;
+  font-size: 14px;
+  color: #3E4152;
+ line-height: 16px;
+}
+
+.order-button {
+  height: 40px;
+  margin: 6px 15px;
+  width: 90%;
+  border: none;
+  font-size: 14px;
+  border-radius: 2px;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
